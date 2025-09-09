@@ -1,0 +1,10 @@
+<doc>
+    <book>
+        <title>Sample Book</title>
+        <author>John Doe</author>
+    </book>
+    <book>
+        <title>Another Book</title>
+        <author>Jane Smith</author>
+    </book>
+</doc>
