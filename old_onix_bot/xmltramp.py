@@ -8,7 +8,12 @@ unicode: TypeAlias = str
 
 
 class Node:
-    def __init__(self, name: str, attrs: dict[str, str] | None = None, children: list[Any] | None = None) -> None:
+    def __init__(
+        self,
+        name: str,
+        attrs: dict[str, str] | None = None,
+        children: list[Any] | None = None,
+    ) -> None:
         self._name = name
         self._attrs = attrs or {}
         self._children = children or []
